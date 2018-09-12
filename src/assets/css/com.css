@@ -1,0 +1,388 @@
+
+body {
+	margin: 0;
+	background: #F7F7F7;
+	font-family: "Helvetica", "Tahoma", "Arial", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "STXihei", "STHeiti", "Heiti", "SimSun", "sans-serif";
+	font-size: 14px;
+}
+
+/***************************** Helpers *****************************************/
+
+.clearfix:before,
+.clearfix:after {
+	display: block;
+	line-height: 0;
+	height: 0;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.inline-block {
+	display: inline-block !important;
+}
+
+.no-border {
+	border: none;
+}
+
+/* Generic Padding Helpers */
+.no-padding {
+	padding: 0 !important;
+}
+
+.p-t-5 {
+	padding-top: 5px !important;
+}
+
+.p-r-5 {
+	padding-right: 5px !important;
+}
+
+.p-l-5 {
+	padding-left: 5px !important;
+}
+
+.p-b-5 {
+	padding-bottom: 5px !important;
+}
+
+.padding-5 {
+	padding: 5px !important;
+}
+
+.p-t-10 {
+	padding-top: 10px !important;
+}
+
+.p-r-10 {
+	padding-right: 10px !important;
+}
+
+.p-l-10 {
+	padding-left: 10px !important;
+}
+
+.p-b-10 {
+	padding-bottom: 10px !important;
+}
+
+.padding-10 {
+	padding: 10px !important;
+}
+
+.p-t-15 {
+	padding-top: 15px !important;
+}
+
+.p-r-15 {
+	padding-right: 15px !important;
+}
+
+.p-l-15 {
+	padding-left: 15px !important;
+}
+
+.p-b-15 {
+	padding-bottom: 15px !important;
+}
+
+.padding-15 {
+	padding: 15px !important;
+}
+
+.p-t-20 {
+	padding-top: 20px !important;
+}
+
+.p-r-20 {
+	padding-right: 20px !important;
+}
+
+.p-l-20 {
+	padding-left: 20px !important;
+}
+
+.p-b-20 {
+	padding-bottom: 20px !important;
+}
+
+.padding-20 {
+	padding: 20px !important;
+}
+
+/* Generic Margin Helpers */
+.no-margin {
+	margin: 0 !important;
+}
+
+.m-t-5 {
+	margin-top: 5px !important;
+}
+
+.m-r-5 {
+	margin-right: 5px !important;
+}
+
+.m-l-5 {
+	margin-left: 5px !important;
+}
+
+.m-b-5 {
+	margin-bottom: 5px !important;
+}
+
+.margin-5 {
+	margin: 5px !important;
+}
+
+.m-t-10 {
+	margin-top: 10px !important;
+}
+
+.m-r-10 {
+	margin-right: 10px !important;
+}
+
+.m-l-10 {
+	margin-left: 10px !important;
+}
+
+.m-b-10 {
+	margin-bottom: 10px !important;
+}
+
+.margin-10 {
+	margin: 10px !important;
+}
+
+.m-t-15 {
+	margin-top: 15px !important;
+}
+
+.m-r-15 {
+	margin-right: 15px !important;
+}
+
+.m-l-15 {
+	margin-left: 15px !important;
+}
+
+.m-b-15 {
+	margin-bottom: 15px !important;
+}
+
+.margin-15 {
+	margin: 15px !important;
+}
+
+.m-t-20 {
+	margin-top: 20px !important;
+}
+
+.m-r-20 {
+	margin-right: 20px !important;
+}
+
+.m-l-20 {
+	margin-left: 20px !important;
+}
+
+.m-b-20 {
+	margin-bottom: 20px !important;
+}
+
+.margin-20 {
+	margin: 20px !important;
+}
+
+/* Generic width Helpers */
+.w-50 {
+	width: 50px !important;
+}
+
+.w-80 {
+	width: 80px !important;
+}
+
+.w-100 {
+	width: 100px !important;
+}
+
+.w-120 {
+	width: 120px !important;
+}
+
+.w-150 {
+	width: 150px !important;
+}
+
+.w-160 {
+	width: 160px !important;
+}
+
+.w-180 {
+	width: 180px !important;
+}
+
+.w-200 {
+	width: 200px !important;
+}
+
+.w-250 {
+	width: 250px !important;
+}
+
+.w-300 {
+	width: 300px !important;
+}
+
+.w-350 {
+	width: 350px !important;
+}
+
+.w-400 {
+	width: 400px !important;
+}
+
+.w-450 {
+	width: 450px !important;
+}
+
+.w-500 {
+	width: 500px !important;
+}
+
+.w-550 {
+	width: 550px !important;
+}
+
+.w-600 {
+	width: 600px !important;
+}
+
+.w-650 {
+	width: 650px !important;
+}
+
+.w-700 {
+	width: 700px !important;
+}
+
+.w-750 {
+	width: 750px !important;
+}
+
+.w-800 {
+	width: 800px !important;
+}
+
+/* Generic fontSize Helpers */
+.font-12 {
+	font-size: 12px !important;
+}
+
+.font-13 {
+	font-size: 13px !important;
+}
+
+.font-14 {
+	font-size: 14px !important;
+}
+
+.font-15 {
+	font-size: 15px !important;
+}
+
+.font-16 {
+	font-size: 16px !important;
+}
+
+.font-17 {
+	font-size: 17px !important;
+}
+
+.font-18 {
+	font-size: 18px !important;
+}
+
+/******************* component style*************************************/
+
+/*layout*/
+
+.app-cmp{
+
+}
+
+.app {
+	background-color: #fff;
+	width: 100%;
+
+}
+.app > .container{
+	height:100%;
+}
+
+.menupage {
+	position: relative;
+	height: 100%;
+}
+
+.menupage .leftmenu {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	box-sizing: border-box;
+	height: 100%;
+	width: 180px;
+}
+
+.leftmenu .el-submenu .el-menu-item {
+	min-width: 100px;
+}
+
+.menupage .right-content {
+	height: 100%;
+	margin-left: 180px;
+}
+
+.menupage .main-content {
+	height: 100%;
+	padding: 0px 20px;
+}
+
+/* leftMenu
+  -------------------------- */
+
+/*暂无数据*/
+.icon-data {
+	font-size: 100px !important;
+}
+
+.no-data {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
